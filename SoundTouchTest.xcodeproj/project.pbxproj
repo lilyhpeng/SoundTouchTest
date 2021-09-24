@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B6FFEBE26FDD15F00251858 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEBD26FDD15F00251858 /* main.cpp */; };
+		2B6FFECB26FDF23000251858 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFECA26FDF23000251858 /* main.cpp */; };
+		2B6FFEE926FDF51F00251858 /* TDStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED126FDF51F00251858 /* TDStretch.cpp */; };
+		2B6FFEEA26FDF51F00251858 /* TDStretch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED126FDF51F00251858 /* TDStretch.cpp */; };
+		2B6FFEEB26FDF51F00251858 /* RateTransposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED326FDF51F00251858 /* RateTransposer.cpp */; };
+		2B6FFEEC26FDF51F00251858 /* RateTransposer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED326FDF51F00251858 /* RateTransposer.cpp */; };
+		2B6FFEED26FDF51F00251858 /* BPMDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED626FDF51F00251858 /* BPMDetect.cpp */; };
+		2B6FFEEE26FDF51F00251858 /* BPMDetect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED626FDF51F00251858 /* BPMDetect.cpp */; };
+		2B6FFEEF26FDF51F00251858 /* mmx_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED826FDF51F00251858 /* mmx_optimized.cpp */; };
+		2B6FFEF026FDF51F00251858 /* mmx_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFED826FDF51F00251858 /* mmx_optimized.cpp */; };
+		2B6FFEF126FDF51F00251858 /* FIRFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEDA26FDF51F00251858 /* FIRFilter.cpp */; };
+		2B6FFEF226FDF51F00251858 /* FIRFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEDA26FDF51F00251858 /* FIRFilter.cpp */; };
+		2B6FFEF326FDF51F00251858 /* FIFOSampleBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEDE26FDF51F00251858 /* FIFOSampleBuffer.cpp */; };
+		2B6FFEF426FDF51F00251858 /* FIFOSampleBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEDE26FDF51F00251858 /* FIFOSampleBuffer.cpp */; };
+		2B6FFEF526FDF51F00251858 /* sse_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEDF26FDF51F00251858 /* sse_optimized.cpp */; };
+		2B6FFEF626FDF51F00251858 /* sse_optimized.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEDF26FDF51F00251858 /* sse_optimized.cpp */; };
+		2B6FFEF726FDF51F00251858 /* cpu_detect_x86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE226FDF51F00251858 /* cpu_detect_x86.cpp */; };
+		2B6FFEF826FDF51F00251858 /* cpu_detect_x86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE226FDF51F00251858 /* cpu_detect_x86.cpp */; };
+		2B6FFEF926FDF51F00251858 /* PeakFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE426FDF51F00251858 /* PeakFinder.cpp */; };
+		2B6FFEFA26FDF51F00251858 /* PeakFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE426FDF51F00251858 /* PeakFinder.cpp */; };
+		2B6FFEFB26FDF51F00251858 /* AAFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE726FDF51F00251858 /* AAFilter.cpp */; };
+		2B6FFEFC26FDF51F00251858 /* AAFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE726FDF51F00251858 /* AAFilter.cpp */; };
+		2B6FFEFD26FDF51F00251858 /* SoundTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE826FDF51F00251858 /* SoundTouch.cpp */; };
+		2B6FFF0126FDF74100251858 /* RunParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFF0026FDF74100251858 /* RunParameters.cpp */; };
+		2B6FFF0426FDF75800251858 /* WavFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFF0326FDF75800251858 /* WavFile.cpp */; };
+		2B6FFF0526FE09D400251858 /* SoundTouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B6FFEE826FDF51F00251858 /* SoundTouch.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B6FFEB826FDD15F00251858 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2B6FFEC626FDF23000251858 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B6FFEBA26FDD15F00251858 /* SoundTouchTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SoundTouchTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6FFEBD26FDD15F00251858 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B6FFEC826FDF23000251858 /* CustomedSoundTouchTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomedSoundTouchTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6FFECA26FDF23000251858 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B6FFED126FDF51F00251858 /* TDStretch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TDStretch.cpp; sourceTree = "<group>"; };
+		2B6FFED226FDF51F00251858 /* FIFOSampleBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIFOSampleBuffer.h; sourceTree = "<group>"; };
+		2B6FFED326FDF51F00251858 /* RateTransposer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RateTransposer.cpp; sourceTree = "<group>"; };
+		2B6FFED426FDF51F00251858 /* FIRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRFilter.h; sourceTree = "<group>"; };
+		2B6FFED526FDF51F00251858 /* STTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTypes.h; sourceTree = "<group>"; };
+		2B6FFED626FDF51F00251858 /* BPMDetect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BPMDetect.cpp; sourceTree = "<group>"; };
+		2B6FFED726FDF51F00251858 /* BPMDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMDetect.h; sourceTree = "<group>"; };
+		2B6FFED826FDF51F00251858 /* mmx_optimized.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mmx_optimized.cpp; sourceTree = "<group>"; };
+		2B6FFED926FDF51F00251858 /* PeakFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeakFinder.h; sourceTree = "<group>"; };
+		2B6FFEDA26FDF51F00251858 /* FIRFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIRFilter.cpp; sourceTree = "<group>"; };
+		2B6FFEDB26FDF51F00251858 /* SoundTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundTouch.h; sourceTree = "<group>"; };
+		2B6FFEDC26FDF51F00251858 /* soundtouch_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soundtouch_config.h; sourceTree = "<group>"; };
+		2B6FFEDD26FDF51F00251858 /* FIFOSamplePipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIFOSamplePipe.h; sourceTree = "<group>"; };
+		2B6FFEDE26FDF51F00251858 /* FIFOSampleBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FIFOSampleBuffer.cpp; sourceTree = "<group>"; };
+		2B6FFEDF26FDF51F00251858 /* sse_optimized.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sse_optimized.cpp; sourceTree = "<group>"; };
+		2B6FFEE026FDF51F00251858 /* AAFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAFilter.h; sourceTree = "<group>"; };
+		2B6FFEE126FDF51F00251858 /* sound_touch.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound_touch.cmake; sourceTree = "<group>"; };
+		2B6FFEE226FDF51F00251858 /* cpu_detect_x86.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpu_detect_x86.cpp; sourceTree = "<group>"; };
+		2B6FFEE326FDF51F00251858 /* RateTransposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateTransposer.h; sourceTree = "<group>"; };
+		2B6FFEE426FDF51F00251858 /* PeakFinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PeakFinder.cpp; sourceTree = "<group>"; };
+		2B6FFEE526FDF51F00251858 /* TDStretch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDStretch.h; sourceTree = "<group>"; };
+		2B6FFEE626FDF51F00251858 /* cpu_detect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu_detect.h; sourceTree = "<group>"; };
+		2B6FFEE726FDF51F00251858 /* AAFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AAFilter.cpp; sourceTree = "<group>"; };
+		2B6FFEE826FDF51F00251858 /* SoundTouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundTouch.cpp; sourceTree = "<group>"; };
+		2B6FFEFF26FDF73400251858 /* RunParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunParameters.h; sourceTree = "<group>"; };
+		2B6FFF0026FDF74100251858 /* RunParameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunParameters.cpp; sourceTree = "<group>"; };
+		2B6FFF0226FDF74F00251858 /* WavFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavFile.h; sourceTree = "<group>"; };
+		2B6FFF0326FDF75800251858 /* WavFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WavFile.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B6FFEB726FDD15F00251858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6FFEC526FDF23000251858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B6FFEB126FDD15F00251858 = {
+			isa = PBXGroup;
+			children = (
+				2B6FFED026FDF51F00251858 /* SoundTouch */,
+				2B6FFEBC26FDD15F00251858 /* SoundTouchTest */,
+				2B6FFEC926FDF23000251858 /* CustomedSoundTouchTest */,
+				2B6FFEBB26FDD15F00251858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B6FFEBB26FDD15F00251858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FFEBA26FDD15F00251858 /* SoundTouchTest */,
+				2B6FFEC826FDF23000251858 /* CustomedSoundTouchTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B6FFEBC26FDD15F00251858 /* SoundTouchTest */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FFF0326FDF75800251858 /* WavFile.cpp */,
+				2B6FFF0226FDF74F00251858 /* WavFile.h */,
+				2B6FFF0026FDF74100251858 /* RunParameters.cpp */,
+				2B6FFEFF26FDF73400251858 /* RunParameters.h */,
+				2B6FFEBD26FDD15F00251858 /* main.cpp */,
+			);
+			path = SoundTouchTest;
+			sourceTree = "<group>";
+		};
+		2B6FFEC926FDF23000251858 /* CustomedSoundTouchTest */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FFECA26FDF23000251858 /* main.cpp */,
+			);
+			path = CustomedSoundTouchTest;
+			sourceTree = "<group>";
+		};
+		2B6FFED026FDF51F00251858 /* SoundTouch */ = {
+			isa = PBXGroup;
+			children = (
+				2B6FFED126FDF51F00251858 /* TDStretch.cpp */,
+				2B6FFED226FDF51F00251858 /* FIFOSampleBuffer.h */,
+				2B6FFED326FDF51F00251858 /* RateTransposer.cpp */,
+				2B6FFED426FDF51F00251858 /* FIRFilter.h */,
+				2B6FFED526FDF51F00251858 /* STTypes.h */,
+				2B6FFED626FDF51F00251858 /* BPMDetect.cpp */,
+				2B6FFED726FDF51F00251858 /* BPMDetect.h */,
+				2B6FFED826FDF51F00251858 /* mmx_optimized.cpp */,
+				2B6FFED926FDF51F00251858 /* PeakFinder.h */,
+				2B6FFEDA26FDF51F00251858 /* FIRFilter.cpp */,
+				2B6FFEDB26FDF51F00251858 /* SoundTouch.h */,
+				2B6FFEDC26FDF51F00251858 /* soundtouch_config.h */,
+				2B6FFEDD26FDF51F00251858 /* FIFOSamplePipe.h */,
+				2B6FFEDE26FDF51F00251858 /* FIFOSampleBuffer.cpp */,
+				2B6FFEDF26FDF51F00251858 /* sse_optimized.cpp */,
+				2B6FFEE026FDF51F00251858 /* AAFilter.h */,
+				2B6FFEE126FDF51F00251858 /* sound_touch.cmake */,
+				2B6FFEE226FDF51F00251858 /* cpu_detect_x86.cpp */,
+				2B6FFEE326FDF51F00251858 /* RateTransposer.h */,
+				2B6FFEE426FDF51F00251858 /* PeakFinder.cpp */,
+				2B6FFEE526FDF51F00251858 /* TDStretch.h */,
+				2B6FFEE626FDF51F00251858 /* cpu_detect.h */,
+				2B6FFEE726FDF51F00251858 /* AAFilter.cpp */,
+				2B6FFEE826FDF51F00251858 /* SoundTouch.cpp */,
+			);
+			path = SoundTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6FFEB926FDD15F00251858 /* SoundTouchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6FFEC126FDD15F00251858 /* Build configuration list for PBXNativeTarget "SoundTouchTest" */;
+			buildPhases = (
+				2B6FFEB626FDD15F00251858 /* Sources */,
+				2B6FFEB726FDD15F00251858 /* Frameworks */,
+				2B6FFEB826FDD15F00251858 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundTouchTest;
+			productName = SoundTouchTest;
+			productReference = 2B6FFEBA26FDD15F00251858 /* SoundTouchTest */;
+			productType = "com.apple.product-type.tool";
+		};
+		2B6FFEC726FDF23000251858 /* CustomedSoundTouchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6FFECC26FDF23000251858 /* Build configuration list for PBXNativeTarget "CustomedSoundTouchTest" */;
+			buildPhases = (
+				2B6FFEC426FDF23000251858 /* Sources */,
+				2B6FFEC526FDF23000251858 /* Frameworks */,
+				2B6FFEC626FDF23000251858 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomedSoundTouchTest;
+			productName = CustomedSoundTouchTest;
+			productReference = 2B6FFEC826FDF23000251858 /* CustomedSoundTouchTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B6FFEB226FDD15F00251858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2B6FFEB926FDD15F00251858 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2B6FFEC726FDF23000251858 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B6FFEB526FDD15F00251858 /* Build configuration list for PBXProject "SoundTouchTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B6FFEB126FDD15F00251858;
+			productRefGroup = 2B6FFEBB26FDD15F00251858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B6FFEB926FDD15F00251858 /* SoundTouchTest */,
+				2B6FFEC726FDF23000251858 /* CustomedSoundTouchTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6FFEB626FDD15F00251858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6FFF0126FDF74100251858 /* RunParameters.cpp in Sources */,
+				2B6FFEEF26FDF51F00251858 /* mmx_optimized.cpp in Sources */,
+				2B6FFEF526FDF51F00251858 /* sse_optimized.cpp in Sources */,
+				2B6FFEBE26FDD15F00251858 /* main.cpp in Sources */,
+				2B6FFEEB26FDF51F00251858 /* RateTransposer.cpp in Sources */,
+				2B6FFEF126FDF51F00251858 /* FIRFilter.cpp in Sources */,
+				2B6FFEF326FDF51F00251858 /* FIFOSampleBuffer.cpp in Sources */,
+				2B6FFEF726FDF51F00251858 /* cpu_detect_x86.cpp in Sources */,
+				2B6FFEED26FDF51F00251858 /* BPMDetect.cpp in Sources */,
+				2B6FFEFB26FDF51F00251858 /* AAFilter.cpp in Sources */,
+				2B6FFEF926FDF51F00251858 /* PeakFinder.cpp in Sources */,
+				2B6FFEE926FDF51F00251858 /* TDStretch.cpp in Sources */,
+				2B6FFF0426FDF75800251858 /* WavFile.cpp in Sources */,
+				2B6FFEFD26FDF51F00251858 /* SoundTouch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B6FFEC426FDF23000251858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6FFEF026FDF51F00251858 /* mmx_optimized.cpp in Sources */,
+				2B6FFEF626FDF51F00251858 /* sse_optimized.cpp in Sources */,
+				2B6FFECB26FDF23000251858 /* main.cpp in Sources */,
+				2B6FFEEC26FDF51F00251858 /* RateTransposer.cpp in Sources */,
+				2B6FFEF226FDF51F00251858 /* FIRFilter.cpp in Sources */,
+				2B6FFEF426FDF51F00251858 /* FIFOSampleBuffer.cpp in Sources */,
+				2B6FFEF826FDF51F00251858 /* cpu_detect_x86.cpp in Sources */,
+				2B6FFEEE26FDF51F00251858 /* BPMDetect.cpp in Sources */,
+				2B6FFEFC26FDF51F00251858 /* AAFilter.cpp in Sources */,
+				2B6FFEFA26FDF51F00251858 /* PeakFinder.cpp in Sources */,
+				2B6FFEEA26FDF51F00251858 /* TDStretch.cpp in Sources */,
+				2B6FFF0526FE09D400251858 /* SoundTouch.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B6FFEBF26FDD15F00251858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B6FFEC026FDD15F00251858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B6FFEC226FDD15F00251858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B6FFEC326FDD15F00251858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B6FFECD26FDF23000251858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B6FFECE26FDF23000251858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B6FFEB526FDD15F00251858 /* Build configuration list for PBXProject "SoundTouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6FFEBF26FDD15F00251858 /* Debug */,
+				2B6FFEC026FDD15F00251858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B6FFEC126FDD15F00251858 /* Build configuration list for PBXNativeTarget "SoundTouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6FFEC226FDD15F00251858 /* Debug */,
+				2B6FFEC326FDD15F00251858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B6FFECC26FDF23000251858 /* Build configuration list for PBXNativeTarget "CustomedSoundTouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6FFECD26FDF23000251858 /* Debug */,
+				2B6FFECE26FDF23000251858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B6FFEB226FDD15F00251858 /* Project object */;
+}
